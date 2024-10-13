@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('images/background.jpg');
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+.skills, .projects, .contact {
+    margin-top: 2rem;
+}
+
+.skills h2, .projects h2, .contact h2 {
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-image: url('images/background1.jpg');
+
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.project {
+    
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 0 0 0.5rem;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+}
